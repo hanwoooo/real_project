@@ -15,6 +15,6 @@ class DetailSubway(generics.RetrieveUpdateDestroyAPIView):
   queryset = Subway.objects.all()
   serializer_class = SubwaySerializer
 
-with open('./data.json', 'r') as f:
-  json_data = json.load(f)
-  print(json.dumps(json_data, indent="\t"))
+# with open('./data.json', 'r') as f:
+#   json_data = json.load(f)
+#   print(json.dumps(json_data, indent="\t"))
